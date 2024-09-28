@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'base.apps.BaseConfig',
     'post.apps.PostConfig',
-    'django-icons',
+    'django_icons',
 ]
 
 MIDDLEWARE = [
