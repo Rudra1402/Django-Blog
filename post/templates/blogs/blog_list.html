@@ -2,10 +2,10 @@
 
 {% block body_block %}
 <div class="p-4 flex flex-col gap-4">
-    <h1 class="text-3xl font-bold mb-2">Welcome to my blog!</h1>
+    <h1 class="text-3xl font-bold mb-0 font-mono">Welcome to Bytes & Bits!</h1>
     {% if posts %}
-    {% for post in post %}
-    <div class="p-1 rounded-lg shadow-md">{post.title}<div>
+    {% for post in posts %}
+    <div class="p-3 rounded-lg shadow-md">{{post.title}}<div>
     {% endfor %}
     {% else %}
     <p>No posts available!</p>
